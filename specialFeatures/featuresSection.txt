@@ -1,0 +1,89 @@
+<div class="container justify-content-center mt-5 mb-5">
+            <h3 class="text-center header">TOP FEATURES</h3>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="card-holder">
+                <div class="card card-shadow" style="width: 20rem;">
+                  <div class="card-header">
+                    <h4 class="header text-center">Feature one</h4>
+                  </div>
+                  <!-- <img src="images/man-smiling.jpg" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-holder">
+                <div class="card card-shadow" style="width: 20rem;">
+                  <div class="card-header">
+                    <h4 class="header text-center">Feature two</h4>
+                  </div>
+                  <!-- <img src="images/man-smiling.jpg" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-holder">
+                <div class="card card-shadow" style="width: 20rem;">
+                  <div class="card-header">
+                    <h4 class="header text-center">Feature three</h4>
+                  </div>
+                  <!-- <img src="images/man-smiling.jpg" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-4 mb-5">
+            <div class="col-md-4 text-center">
+              <a href="#" class="btn btn-md btn-outline-dark ">View all features &rsaquo;&rsaquo;</a>
+            </div>
+          </div>
+
+
+//ADVERTISEMENT card
+
+<div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="text-center">
+                    <h2 class="h_style">Your School/Training institution <br> Doesn't Have a Website?</h2>
+                    <p>Don't worry we've got you covered.</p>
+                    <!-- <a class="btn btn-outline-dark crown mt-2 btn-lg hide" href="#">Go Premium &rsaquo;&rsaquo;</a> -->
+                </div>
+                <div class="card card-shadow" style="width: 18rem;">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-header text-center" style="font-family: 'Raleway', sans-serif;" >
+                    <h4>Premium+</h4>
+                    </div>
+                  <div class="card-body">
+                    <p style="color: purple;text-align: center;"> <b>$ 5.00 / month</b></p>
+                      <p class="attention">7 days free trial</p>
+                    <div class="list">
+                      <p><i class="fas fa-check"></i> A one page website </p>
+                      <p><i class="fas fa-check"></i> Fully detailed application form</p>
+                      <p><i class="fas fa-check"></i> User friendly interface to manage applicants</p>
+                      <!-- <p><i class="fas fa-check"></i> user fr for your applicants</p> -->
+                    </div>
+                    <div class="text-center"> <a class="btn btn-outline-dark crown mb-4 mt-2" href="#">Go Premium &rsaquo;&rsaquo;</a></div>
+                    <!-- <div class="text-center"> <a href="#" class="btn btn-outline-dark">Go Premium+</a></div> -->
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php if($info != '') echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+    <strong>Sorry!</strong> $info
+    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+      <span aria-hidden='true'>&times;</span>
+    </button>
+  </div>";  ?>

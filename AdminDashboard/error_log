@@ -1,0 +1,6 @@
+[01-Jul-2021 19:49:13 Africa/Lagos] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/crowndid/public_html/AdminDashboard/logout.php on line 6
+[02-Jul-2021 21:50:57 Africa/Lagos] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/crowndid/public_html/AdminDashboard/logout.php on line 6
+[02-Jul-2021 22:15:09 Africa/Lagos] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/crowndid/public_html/AdminDashboard/logout.php on line 6
+[02-Jul-2021 22:17:45 Africa/Lagos] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/crowndid/public_html/AdminDashboard/logout.php on line 6
+[02-Jul-2021 22:29:49 Africa/Lagos] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/crowndid/public_html/AdminDashboard/logout.php on line 6
+[24-Jul-2021 07:59:55 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/crowndid/public_html/AdminDashboard/addtemplate.php on line 37

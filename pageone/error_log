@@ -1,0 +1,33 @@
+[14-Apr-2021 22:58:52 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/onepage/mailsend.php on line 4
+[14-Apr-2021 22:58:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/onepage/mailsend.php on line 4
+[14-Apr-2021 23:25:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crowndid/public_html/onepage/mailsend.php:24) in /home/crowndid/public_html/onepage/mailsend.php on line 25
+[09-Jun-2021 00:32:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/onepage/onepage.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/onepage/onepage.php on line 14
+[09-Jun-2021 00:33:01 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/onepage/onepage.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/onepage/onepage.php on line 14
+[11-Jul-2021 01:04:23 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function replace_curl() in /home/crowndid/public_html/onepage/footer.php:2
+Stack trace:
+#0 /home/crowndid/public_html/onepage/gallery.php(234): include()
+#1 {main}
+  thrown in /home/crowndid/public_html/onepage/footer.php on line 2
+[11-Jul-2021 01:17:35 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function replace_curl() in /home/crowndid/public_html/onepage/footer.php:8
+Stack trace:
+#0 /home/crowndid/public_html/onepage/gallery.php(234): include()
+#1 {main}
+  thrown in /home/crowndid/public_html/onepage/footer.php on line 8
+[11-Jul-2021 01:18:50 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function replace_curl() in /home/crowndid/public_html/onepage/gallery.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/onepage/gallery.php on line 11
+[11-Jul-2021 01:18:53 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function replace_curl() in /home/crowndid/public_html/onepage/gallery.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/onepage/gallery.php on line 11
+[11-Jul-2021 02:18:45 Africa/Lagos] PHP Parse error:  syntax error, unexpected '"<div>' (T_CONSTANT_ENCAPSED_STRING) in /home/crowndid/public_html/onepage/test.php on line 129
+[11-Jul-2021 02:19:27 Africa/Lagos] PHP Parse error:  syntax error, unexpected '"<div>' (T_CONSTANT_ENCAPSED_STRING) in /home/crowndid/public_html/onepage/test.php on line 129
+[11-Jul-2021 02:20:07 Africa/Lagos] PHP Parse error:  syntax error, unexpected 'js' (T_STRING), expecting ',' or ';' in /home/crowndid/public_html/onepage/test.php on line 146
+[11-Jul-2021 02:20:09 Africa/Lagos] PHP Parse error:  syntax error, unexpected 'js' (T_STRING), expecting ',' or ';' in /home/crowndid/public_html/onepage/test.php on line 146

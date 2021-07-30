@@ -1,0 +1,33 @@
+:root{
+    --brand: #6a4a91;
+    --light-brand: #7d4fb6;
+}
+.is-active{
+    background-color: var(--light-brand) !important;
+    color: #fff !important;
+}
+.card-primary.card-outline{
+    border-top: 2px solid var(--light-brand) !important;
+}
+.btn-primary{
+    background-color: var(--light-brand);
+    border: var(--light-brand);
+}
+.btn-primary:hover{
+    background-color: var(--brand);
+    border: var(--brand);
+}
+.card-primary:not(.card-outline)>.card-header{
+    background-color: var(--light-brand);
+}
+.custom-list{
+    display: grid;
+    grid-template-columns: .3fr 6fr .3fr;
+}
+.name{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.caret-left{
+    margin-left: 14px;
+}

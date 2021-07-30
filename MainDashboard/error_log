@@ -1,0 +1,137 @@
+[01-Apr-2021 15:30:33 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:30:33 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:30:38 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:30:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:31:23 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:31:23 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:41:55 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 15:41:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 19:20:13 UTC] PHP Warning:  require_once(/Users/king/vendor/autoload.php): failed to open stream: No such file or directory in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[01-Apr-2021 19:20:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/king/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/crowndid/public_html/MainDashboard/composeMails.php on line 76
+[05-Apr-2021 00:06:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddEmbeddedImage() on null in /home/crowndid/public_html/MainDashboard/test.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/test.php on line 9
+[05-Apr-2021 16:01:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_school_cat() in /home/crowndid/public_html/MainDashboard/home.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 122
+[05-Apr-2021 16:01:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_school_cat() in /home/crowndid/public_html/MainDashboard/home.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 122
+[05-Apr-2021 16:02:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_school_cat() in /home/crowndid/public_html/MainDashboard/home.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 122
+[05-Apr-2021 16:05:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_school_cat() in /home/crowndid/public_html/MainDashboard/home.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 122
+[05-Apr-2021 16:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_school_cat() in /home/crowndid/public_html/MainDashboard/home.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 122
+[07-Jun-2021 14:57:24 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/home.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 138
+[07-Jun-2021 14:57:28 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/home.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/home.php on line 138
+[11-Jun-2021 13:40:51 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/crowndid/public_html/MainDashboard/home.php on line 42
+[18-Jun-2021 18:51:58 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/faqs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/faqs.php on line 21
+[18-Jun-2021 18:52:04 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/faqs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/faqs.php on line 21
+[18-Jun-2021 18:53:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/faqs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/faqs.php on line 21
+[18-Jun-2021 18:55:47 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/faqs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/faqs.php on line 21
+[18-Jun-2021 23:03:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function is_trial_exp() in /home/crowndid/public_html/MainDashboard/faqs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/faqs.php on line 21
+[27-Jun-2021 17:40:08 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/clearlist.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/clearlist.php on line 6
+[27-Jun-2021 17:41:42 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/clearlist.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/clearlist.php on line 6
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'firstname' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 93
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'lastname' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 97
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'email' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 103
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'dob' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 107
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'address' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 112
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'course' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 116
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'mobile' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 121
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'app_date' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 125
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'email' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 128
+[18-Jul-2021 18:52:00 Africa/Lagos] PHP Warning:  Illegal string offset 'email' in /home/crowndid/public_html/MainDashboard/applicantDetails.php on line 129
+[24-Jul-2021 10:10:20 Africa/Lagos] PHP Parse error:  syntax error, unexpected end of file in /home/crowndid/public_html/MainDashboard/templates.php on line 206
+[24-Jul-2021 10:35:30 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(123): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:36:01 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(124): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:36:44 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(124): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:38:47 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(124): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:39:07 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(124): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:45:13 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(132): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:46:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(132): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:47:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(132): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 10:47:14 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/crowndid/public_html/MainDashboard/templates.php:28
+Stack trace:
+#0 /home/crowndid/public_html/MainDashboard/templates.php(132): get_default('1')
+#1 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/templates.php on line 28
+[24-Jul-2021 11:13:16 Africa/Lagos] PHP Warning:  Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP) in /home/crowndid/public_html/MainDashboard/templates.php on line 136
+[24-Jul-2021 11:13:20 Africa/Lagos] PHP Warning:  Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP) in /home/crowndid/public_html/MainDashboard/templates.php on line 136
+[25-Jul-2021 17:43:31 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function replace_quotes() in /home/crowndid/public_html/MainDashboard/utilities.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/crowndid/public_html/MainDashboard/utilities.php on line 36
+[27-Jul-2021 00:28:57 Africa/Lagos] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/crowndid/public_html/MainDashboard/imgcaption.php on line 30
+[27-Jul-2021 00:28:57 Africa/Lagos] PHP Warning:  Illegal string offset 'caption' in /home/crowndid/public_html/MainDashboard/imgcaption.php on line 131
+[27-Jul-2021 00:31:16 Africa/Lagos] PHP Warning:  Illegal string offset 'caption' in /home/crowndid/public_html/MainDashboard/imgcaption.php on line 130
+[27-Jul-2021 09:20:21 Africa/Lagos] PHP Warning:  Illegal string offset 'caption' in /home/crowndid/public_html/MainDashboard/imgcaption.php on line 121

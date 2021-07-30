@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+  font-weight: bold;
+}
+.img-fit{
+    object-fit: cover;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.img-gal{
+    border-radius: 7px;
+    height: 250px;
+}
+.caption-txt{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.sub-caption{
+  font-size: large;
+  color: #7a7a7a;
+}
+.img-cover{
+    position: relative;
+}
+.img-cover:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* The Modal (background) */
+.cusmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+  }
+  .icon{
+    margin-right: 20px;
+    width: fit-content;
+    border: solid 1px #030303;
+    border-radius: 4px;
+    padding: 3px 6px;
+    color: #030303;
+    font-size: 20px;
+  }
+  .footnote{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .twitter:hover{
+    background-color: #1DA1F2;
+    border: solid 1px #1DA1F2;
+    color: #fff;
+    transition: .5s ease;
+  }
+  .instagram:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border: solid 1px #be0872;
+    color: #fff;
+    transition: .5s ease;
+  }
+  .facebook:hover{
+    background-color: #4267B2;
+    border: solid 1px #4267B2;
+    color: #fff;
+    transition: .5s ease;
+  }
+  .linkedin:hover{
+    background-color: #0077b5;
+    border: solid 1px #0077b5;
+    color: #fff;
+    transition: .5s ease;
+  }

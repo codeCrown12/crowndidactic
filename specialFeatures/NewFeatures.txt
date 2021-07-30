@@ -1,0 +1,2 @@
+1. Add background image for caption section
+2. Add features section for one page site

@@ -1,0 +1,27 @@
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'Name' in /home/crowndid/public_html/pagetwo/applicationform.php on line 18
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'Name' in /home/crowndid/public_html/pagetwo/applicationform.php on line 18
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Cannot assign an empty string to a string offset in /home/crowndid/public_html/pagetwo/applicationform.php on line 18
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'address' in /home/crowndid/public_html/pagetwo/applicationform.php on line 19
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'address' in /home/crowndid/public_html/pagetwo/applicationform.php on line 19
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Cannot assign an empty string to a string offset in /home/crowndid/public_html/pagetwo/applicationform.php on line 19
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'about' in /home/crowndid/public_html/pagetwo/applicationform.php on line 20
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'about' in /home/crowndid/public_html/pagetwo/applicationform.php on line 20
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Cannot assign an empty string to a string offset in /home/crowndid/public_html/pagetwo/applicationform.php on line 20
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'profileimg' in /home/crowndid/public_html/pagetwo/applicationform.php on line 94
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'Name' in /home/crowndid/public_html/pagetwo/applicationform.php on line 95
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'Name' in /home/crowndid/public_html/pagetwo/applicationform.php on line 98
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'address' in /home/crowndid/public_html/pagetwo/applicationform.php on line 142
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'mobile' in /home/crowndid/public_html/pagetwo/applicationform.php on line 150
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'email' in /home/crowndid/public_html/pagetwo/applicationform.php on line 158
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'weburl' in /home/crowndid/public_html/pagetwo/applicationform.php on line 167
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'weburl' in /home/crowndid/public_html/pagetwo/applicationform.php on line 171
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'weburl' in /home/crowndid/public_html/pagetwo/applicationform.php on line 174
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'weburl' in /home/crowndid/public_html/pagetwo/applicationform.php on line 178
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'facebook' in /home/crowndid/public_html/pagetwo/applicationform.php on line 242
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'facebook' in /home/crowndid/public_html/pagetwo/applicationform.php on line 246
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'twitter' in /home/crowndid/public_html/pagetwo/applicationform.php on line 251
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'twitter' in /home/crowndid/public_html/pagetwo/applicationform.php on line 255
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'linkedin' in /home/crowndid/public_html/pagetwo/applicationform.php on line 259
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'linkedin' in /home/crowndid/public_html/pagetwo/applicationform.php on line 263
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'instagram' in /home/crowndid/public_html/pagetwo/applicationform.php on line 267
+[29-Jul-2021 15:21:59 Africa/Lagos] PHP Warning:  Illegal string offset 'instagram' in /home/crowndid/public_html/pagetwo/applicationform.php on line 271
