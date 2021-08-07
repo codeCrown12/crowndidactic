@@ -26,12 +26,12 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer();
 
 $mail->isSMTP();
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = 'mail.crowndidactic.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'crowndidactic@gmail.com'; 
-$mail->Password = 'CROWNdidactic@123';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
+$mail->Username = 'info@crowndidactic.com'; 
+$mail->Password = 'Passw0rdx123#';
+$mail->SMTPSecure = 'ssl';
+$mail->Port = 465;
 
 if(isset($_POST['send'])){
   if($_POST['email'] == "" || $_POST['name'] == "" || $_POST['subject'] == "" || $_POST['msg'] == ""){

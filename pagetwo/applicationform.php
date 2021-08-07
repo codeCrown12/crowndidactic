@@ -1,8 +1,34 @@
 <?php
 include_once '../connection.php';
 include_once '../functions.php';
+// Mailer script
+require_once '../vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+$mail = new PHPMailer();
+
+$mail->isSMTP();
+$mail->Host = 'mail.crowndidactic.com';
+$mail->SMTPAuth = true;
+$mail->Username = 'info@crowndidactic.com'; 
+$mail->Password = 'Passw0rdx123#';
+$mail->SMTPSecure = 'ssl';
+$mail->Port = 465;
+
 $row_abt = "";
 $schoolkey = "";
+
+// function to check if school has any courses listed
+function count_courses($connection, $schoolkey){
+  $query = "SELECT COUNT(course) FROM courses AS total WHERE school_email = '$schoolkey'";
+  $result = $connection->query($query);
+  if(!$result){
+    die($connection->error);
+  }
+  else $row = $result->fetch_array(MYSQLI_ASSOC);
+  return $row['total'];
+}
 
 //Snippet to select school information from database
 if (isset($_GET['selector']) && $_GET['selector'] != "") {
@@ -30,9 +56,14 @@ if (isset($_POST['submit'])) {
     $address = check_string($connection, $_POST['address']);
     $mobile = check_string($connection, $_POST['mobile']);
     $dob = check_string($connection, $_POST['dob']);
-    $course = check_string($connection, $_POST['course']);
+    if(count_courses($connection, $schoolkey) > 1){
+      $course = check_string($connection, $_POST['course']);
+    }
+    else{
+      $course = "No course available";
+    }
     $date = date('Y-m-d');
-    if ($fname == "" || $lname == "" || $email == "" || $address == "" || $mobile == "" || $dob == "" || $course == "-- Select course --") {
+    if ($fname == "" || $lname == "" || $email == "" || $address == "" || $mobile == "" || $dob == "") {
         $info = "<div class='alert alert-danger alert-dismissible fade show mt-2' role='alert'>
             All fields are required.
   <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
@@ -49,10 +80,41 @@ if (isset($_POST['submit'])) {
         $result = $connection->prepare($query);
         $result->bind_param("sssssssss", $schoolkey, $fname, $lname, $email, $mobile, $dob, $address, $course, $date);
         if ($result->execute()) {
+          $mail->setFrom("info@crowndidactic.com", "Crowndidactic");
+          $mail->addAddress($schoolkey);
+          $mail->isHTML(true);
+          $mail->Subject = "New student notification";
+          $mail->Body ="<!DOCTYPE html>
+          <html lang='en'>
+          <head>
+            <meta charset='UTF-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            <title>Message</title>
+          </head>
+          <body style='background-color: #f8f9fa;padding-bottom: 10px;'>
+          <div style='border: solid #fff 1px;width: 75%;padding: 9px;margin-left: auto;margin-right: auto;border-radius: 5px;background-color: white;'>
+              <div style='text-align: center;font-size: 17px;'>
+                  <p>Hello didactian,</p>
+                  <p>A student has just recently filled your application form. <a href='https://crowndidactic.com/login'>Click here to login</a>, to know who they are and help them to start learning. &#128521; &#128640;</p>
+              </div>
+          </div>
+          <p style='text-align: center;'><small><span style='color: rgb(114, 113, 113);'>Powered by </span><a href='https://www.crowndidactic.com/' target='_blank'>Crowndidactic</a></small></p>
+          <p style='text-align: center;'><small><span style='color: rgb(114, 113, 113);'></span><a href='https://www.crowndidactic.com/Terms/terms' target='_blank'>Privacy policy</a></small></p>
+          </body>
+          </html>";
+          if($mail->send()){
             $info = "<div class='alert alert-success alert-dismissible fade show mt-2' role='alert'>
-            Your Details have been submitted successfully! You will be contacted by the school via email.
+            Your Details have been submitted successfully! You will be contacted by the school or tutor via email.
   <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
 </div>";
+          }  
+        else{
+          $info = "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                  Error in connection!
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+      </div>";
+        }
         }
         else{
             $info = "<div class='alert alert-danger alert-dismissible fade show mt-2' role='alert'>
@@ -217,25 +279,28 @@ if (isset($_POST['submit'])) {
                                   <label class="myfrmlabel">Date of birth</label>
                                   <input type="date" name="dob" class="myformctrl">
                                 </div>
-                            <div class="col-md-12">
-                                <label for="inputEmail4" class="myfrmlabel">Course</label>
-                                <select name="course" class="myformctrl">
-                                    <option value="-- Select course --">-- Select course --</option>
                                   <?php
                                   $querycourse = "SELECT course FROM courses WHERE school_email = '$schoolkey'";
                                   $result = $connection->query($querycourse);
                                   if(!$result) die ($connection->error);
                                   $rows = $result->num_rows;
-                        
-                                    for($i=0; $i<$rows; $i++){
-                                        $result->data_seek($i);
-                                        $row = $result->fetch_array(MYSQLI_ASSOC);
-                                        echo "<option value='".$row['course']."'>".$row['course']."</option>";
-                                        }
-                                        $result->close();
-                                        ?>
-                                </select>
+                                  if ($rows >= 1) {
+                                      ?>
+                                  <div class="col-md-12">
+                                <label for="inputEmail4" class="myfrmlabel">Course</label>
+                                <select name="course" class="myformctrl">
+                                    <option value="-- Select course --">-- Select course --</option>
+                                  <?php
+                                  for ($i=0; $i<$rows; $i++) {
+                                      $result->data_seek($i);
+                                      $row = $result->fetch_array(MYSQLI_ASSOC);
+                                      echo "<option value='".$row['course']."'>".$row['course']."</option>";
+                                  }
+                                      $result->close(); ?>
+                                  </select>
                             </div>
+                            <?php
+                                  } ?>
                             <div class="col-md-12">
                                 <button class="mybtn mt-3" type="submit" name="submit">Submit</button>
                             </div>
